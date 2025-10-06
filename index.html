@@ -1,72 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://rmhollenbeck.github.io/vertical-navigation.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <!-- Placeholder for Header -->
-    <div id="header"></div>   
+    <body>
+        <!-- Vertical sidebar -->
+        <div class="vertical-nav">
+            <a href="index.html" class="nav-item-vertical active"><i class="fa-solid fa-house"></i><span>Home</span></a>
+            <a href="project-directions.html" class="nav-item-vertical"><i class="fa-solid fa-book"></i><span>Directions</span></a>
+            <a href="#" class="nav-item-vertical"><i class="fa-solid fa-camera"></i><span>Example 1</span></a>
+            <a href="#" class="nav-item-vertical"><i class="fa-solid fa-paw"></i><span>Example 2</span></a>
+            <a href="#" class="nav-item-vertical"><i class="fa-solid fa-football"></i><span>Example 3</span></a>
+            <a href="#" class="nav-item-vertical"><i class="fa-solid fa-music"></i><span>Example 4</span></a>
+        </div>
 
-     <!-- Main Content -->
+        <div class = "container">
+            <h1>The index.html main content page!!</h1>
+        </div>
+    </body>
 
-    <h1> Count Down to Summer </h1>
-    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png" alt="sunset at beach">
-    <h3>Eighteen Wake-Ups Left!</h3>
-
-    <br>
-
-    <h2>Important Dates</h2>
-    <ul>
-        <li>May 20 - 24: Math MCAP</li>
-        <li>May 22: Falcon Day</li>
-        <li>May 27: Memorial Day</li>
-        <li>June 14: Last Day of School!</li>
-    </ul>
-    <br>
-
-    <h2>History of Summer Break</h2>
-    <p>The tradition of students having summer off from school dates back to a time when agriculture was a primary 
-        way of life for many families. In rural communities, children were often needed to help with planting and 
-        harvesting crops during the summer months. As a result, schools would close for the summer to accommodate 
-        this agricultural cycle.</p>
-
-    <br>
-
-    <h2>July 4th</h2>
-    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/fireworks-in-sky.png" alt="fireworks">
-    <p>  Independence Day is celebrated on July 4th and commemorates the adoption of the Declaration of Independence in 1776, 
-        declaring independence from Great Britain. It is a federal holiday marked by patriotic displays, fireworks, 
-        parades, and family gatherings.</p>
-
-    <br>
-    <h1>Finish the Year Strong!!</h1>
-    <p>As the school year draws to a close, I want to encourage each and every one of you to finish strong. Reflect on the progress 
-        you've made, the challenges you've overcome, and the knowledge you've gained. Use these final weeks to tie up loose ends, 
-        ask questions, and seek clarity on anything that's unclear. Remember, every effort you put in now will contribute to your 
-        success in the future. Stay focused, stay motivated, and give it your all until the very end. You've got this!</p>
-    
-
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <script>
-        // Load header.html into the header div
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch('header.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('header').innerHTML = data;
-                });
-        });
-    </script>
-
-</body>
 </html>

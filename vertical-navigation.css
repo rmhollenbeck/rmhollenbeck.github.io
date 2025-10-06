@@ -1,0 +1,48 @@
+/* Reset defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.vertical-nav {
+  width: 100px;
+  background-color: #2d3b45;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  position: sticky;
+  top: 0px;
+  height: 100vh;
+  overflow-y: auto; /* scrolls only if sidebar content exceeds height */
+}
+
+/* Vertical Navigation items */
+.nav-item-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+
+.nav-item-vertical.active {
+  background-color: white;
+  color: #2d3b45;
+}
+
+.nav-item-vertical:hover {
+  background-color: white;
+  color: rgb(49, 34, 34);
+}
+
+.nav-item-vertical span {
+  margin-top: 10px;
+  font-size: 12px;
+}

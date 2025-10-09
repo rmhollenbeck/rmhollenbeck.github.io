@@ -6,6 +6,15 @@
   font-family: Arial, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20 px;
+}
+
+
 /* Sidebar */
 .vertical-nav {
   width: 100px;
@@ -45,4 +54,5 @@
 .nav-item-vertical span {
   margin-top: 10px;
   font-size: 12px;
+
 }

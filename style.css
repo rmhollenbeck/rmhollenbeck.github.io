@@ -1,33 +1,6 @@
-body {
-    display: flex;
-    flex-direction: row;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-}
-
-
-   
-h1 {
-    color: #2d3b45;
-}
-
-a {
-    color: #1a73e8;
-    text-decoration: none;
-}
-
- a:hover {
-    text-decoration: underline;
-}
-
-ul {
-    margin-top: 0;
-}
-
 .container{
     flex-grow: 1;
-    background-color: rgb(170, 238, 241);
-    border: 2px solid purple;
-    padding: 50px;
+    background-color: rgb (170, 238, 241);
+    border: 2 px solid purple;
+    padding: 50 px;
 }

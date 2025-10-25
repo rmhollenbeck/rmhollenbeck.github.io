@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Demo</title>
+  <style>
+    .game-board {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    canvas {
+      border: 2px solid black;
+      background-color: lightblue;
+    }
+
+    #startBtn, #stopBtn {
+      position: absolute;
+      padding: 10px 20px;
+      font-size: 16px;
+      z-index: 10;
+      cursor: pointer;
+    }
+
+    #startBtn {
+      top: 100px;
+      left: 270px;
+    }
+
+    #stopBtn {
+      top: 100px;
+      left: 450px;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-board">
+    <h1>Using HTML's canvas Tag with some JavaScript</h1>
+    <canvas id="myCanvas" width="800" height="500"></canvas>
+    <button id="startBtn">Start Animation</button>
+    <button id="stopBtn">Stop Animation</button>
+  </div>  
+
+  <script src="bouncingCircle.js"></script>
+  
+</body>
+</html>

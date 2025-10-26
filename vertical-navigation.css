@@ -11,7 +11,7 @@ body {
     flex-direction: row;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding: 20px;
+    overflow-y: hidden;
 }
 
 
@@ -57,4 +57,5 @@ body {
   font-size: 12px;
 
 }
+
 
